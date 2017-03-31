@@ -50,6 +50,9 @@
     }
   },
   "dependencies": {
+    "bluebird": "^3.3.3",
+    "composable-middleware": "^0.3.0",
+    "jsonwebtoken": "^5.0.0",
     "body-parser": "^1.15.2",
     "express": "^4.15.2",
     "lodash": "^4.16.6",
@@ -58,6 +61,12 @@
     "wiredep": "^4.0.0",
     "express-session": "^1.14.1",
     "cookie-parser": "^1.4.3",
-    "express-jwt": "^3.0.0"
+    "express-jwt": "^3.0.0",
+    "mongoose-find-one-or-create": "^0.2.0",
+    "passport": "~0.3.0",
+    "passport-facebook": "^2.1.1",
+    "passport-local": "^1.0.0",
+    "run-sequence": "^1.2.2",
+    "wiredep": "^4.0.0"
   }
 }
