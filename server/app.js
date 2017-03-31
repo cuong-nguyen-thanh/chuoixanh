@@ -14,9 +14,9 @@ require('./routes')(app);
 
 // config DB
 var mongoose = require('mongoose');
-// mongoose.connect('mongodb://admin:123456@ds151697.mlab.com:51697/techkids');
+mongoose.connect('mongodb://admin:admin@ds147510.mlab.com:47510/chuoixanhweb4');
 
-mongoose.connect('mongodb://localhost/web4_back_end');
+// mongoose.connect('mongodb://localhost/web4_back_end');
 
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'DB connection error: '));
